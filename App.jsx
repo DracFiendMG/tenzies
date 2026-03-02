@@ -14,7 +14,9 @@ export default function App() {
         
     useEffect(() => {
         const interval = setInterval(() => {
-            setTimeCounter(oldTime => beautifyTime(oldTime))
+            if (!gameWon) {
+                setTimeCounter(oldTime => beautifyTime(oldTime))
+            }
         }, 1000)
 
         if (gameWon) {
