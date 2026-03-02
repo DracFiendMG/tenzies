@@ -32,7 +32,7 @@ export default function App() {
         const newMins = Math.floor(totalSeconds / 60)
         const newSecs = totalSeconds % 60
         
-        return `${newMins}:${newSecs < 10 ? "0" : ""}${newSecs}`
+        return `${newMins < 10 ? "0" : ""}${newMins}:${newSecs < 10 ? "0" : ""}${newSecs}`
     }
 
     function generateAllNewDice() {
