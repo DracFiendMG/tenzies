@@ -17,3 +17,8 @@ The Fullstack Developer Path aims to teach you everything you need to become a J
 - [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
 Happy Coding!
+
+## Stretch Goals
+- Add a timer and a counter
+- Use real dice pips instead of numbers
+- Deploy and share
