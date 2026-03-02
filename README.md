@@ -19,6 +19,6 @@ The Fullstack Developer Path aims to teach you everything you need to become a J
 Happy Coding!
 
 ## Stretch Goals
-- Add a timer and a counter
-- Use real dice pips instead of numbers
-- Deploy and share
+- Add a timer and a counter ✅
+- Use real dice pips instead of numbers ✅
+- Deploy and share ✅

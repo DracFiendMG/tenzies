@@ -1,7 +1,7 @@
 export default function Die(props) {
     const pips = []
     for (let i = 0; i < props.value; i++) {
-        pips.push(<div key={i} className="pip" />)
+        pips.push(<span key={i} className="pip" />)
     }
 
     const dieClasses = `die face-${props.value}`
